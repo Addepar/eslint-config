@@ -1,0 +1,16 @@
+{
+  "name": "@addepar/eslint-config",
+  "version": "1.0.0",
+  "description": "Addepar eslint-config",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies":{
+    "babel-eslint": "^7.2.3",
+    "eslint-plugin-ember-suave": "^1.0.0",
+    "eslint-plugin-import": "^2.3.0"
+  },
+  "author": "",
+  "license": "ISC"
+}

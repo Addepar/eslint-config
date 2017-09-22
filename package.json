@@ -6,9 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "dependencies":{
+  "dependencies": {
     "babel-eslint": "^7.2.3",
-    "eslint-plugin-ember-suave": "^1.0.0",
+    "eslint-plugin-brackets": "^0.1.0",
+    "eslint-plugin-fat-arrow-same-line": "^0.1.0",
     "eslint-plugin-import": "^2.3.0"
   },
   "author": "",

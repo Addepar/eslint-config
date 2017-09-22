@@ -141,11 +141,15 @@ eslint-module-utils@^2.1.1:
     debug "^2.6.8"
     pkg-dir "^1.0.0"
 
-eslint-plugin-ember-suave@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-ember-suave/-/eslint-plugin-ember-suave-1.0.0.tgz#ea7d232a126562dcd8b1ee3aa2700ac3b626e514"
+eslint-plugin-brackets@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-brackets/-/eslint-plugin-brackets-0.1.0.tgz#8ffeb1d28ec9d5bc9553635832b1dcc4d9ce1026"
   dependencies:
-    requireindex "~1.1.0"
+    lodash "^4.17.2"
+
+eslint-plugin-fat-arrow-same-line@^0.1.0:
+  version "0.1.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-fat-arrow-same-line/-/eslint-plugin-fat-arrow-same-line-0.1.0.tgz#a662d93503d87bb51674c1547b35bbd00aa313b6"
 
 eslint-plugin-import@^2.3.0:
   version "2.7.0"
@@ -251,7 +255,7 @@ lodash.cond@^4.3.0:
   version "4.5.2"
   resolved "https://registry.yarnpkg.com/lodash.cond/-/lodash.cond-4.5.2.tgz#f471a1da486be60f6ab955d17115523dd1d255d5"
 
-lodash@^4.2.0:
+lodash@^4.17.2, lodash@^4.2.0:
   version "4.17.4"
   resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.4.tgz#78203a4d1c328ae1d86dca6460e369b57f4055ae"
 
@@ -354,10 +358,6 @@ read-pkg@^2.0.0:
 regenerator-runtime@^0.10.0:
   version "0.10.5"
   resolved "https://registry.yarnpkg.com/regenerator-runtime/-/regenerator-runtime-0.10.5.tgz#336c3efc1220adcedda2c9fab67b5a7955a33658"
-
-requireindex@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/requireindex/-/requireindex-1.1.0.tgz#e5404b81557ef75db6e49c5a72004893fe03e162"
 
 resolve@^1.2.0:
   version "1.3.3"

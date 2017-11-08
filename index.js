@@ -1,4 +1,3 @@
-
 module.exports = {
   root: true,
   parser: 'babel-eslint',
@@ -8,8 +7,9 @@ module.exports = {
   },
   plugins: [
     'brackets',
-    'import',
-    'fat-arrow-same-line'
+    'class-property',
+    'fat-arrow-same-line',
+    'import'
   ],
   extends: [
     'eslint:recommended'
@@ -64,16 +64,17 @@ module.exports = {
       'ember'
     ],
 
-    // Import plugin rules
-    'import/first': 2,
-    'import/newline-after-import': 2,
+    // Class property plugin rules
+    'class-property/class-property-semicolon': 2,
 
+    // Brackets plugin rules
     'brackets/array-bracket-newline': ['error', { onePerLine: true }],
     'brackets/call-parens-newline': ['error', { onePerLine: true }],
     'brackets/conditional-parens-newline': ['error'],
     'brackets/func-parens-newline': ['error', { onePerLine: true }],
     'brackets/object-curly-newline': ['error', { onePerLine: true }],
 
+    // Fat arrow plugin rules
     'fat-arrow-same-line/fat-arrow-same-line': ['error', {
       allowObjects: true,
       allowArrays: true,
@@ -82,5 +83,9 @@ module.exports = {
       allowBoolExpressions: true,
       allowMembers: ['create']
     }],
+
+    // Import plugin rules
+    'import/first': 2,
+    'import/newline-after-import': 2
   }
 };

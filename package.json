@@ -1,6 +1,6 @@
 {
   "name": "@addepar/eslint-config",
-  "version": "2.1.2",
+  "version": "2.1.3",
   "description": "Addepar eslint-config",
   "main": "index.js",
   "scripts": {

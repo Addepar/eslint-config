@@ -12,7 +12,8 @@ module.exports = {
     'import'
   ],
   extends: [
-    'eslint:recommended'
+    'eslint:recommended',
+    'plugin:ember-best-practices/base'
   ],
   env: {
     'browser': true,

@@ -9,7 +9,8 @@ module.exports = {
     'brackets',
     'class-property',
     'fat-arrow-same-line',
-    'import'
+    'import',
+    'prefer-let'
   ],
   extends: [
     'eslint:recommended'
@@ -80,7 +81,6 @@ module.exports = {
     }],
     'operator-linebreak': ['error', 'before'],
 
-    'prefer-const': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
 
@@ -153,6 +153,9 @@ module.exports = {
 
     // Import plugin rules
     'import/first': 2,
-    'import/newline-after-import': 2
+    'import/newline-after-import': 2,
+
+    // Prefer let
+    'prefer-let/prefer-let': 2
   }
 };

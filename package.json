@@ -14,7 +14,8 @@
     "eslint-plugin-ember": "^5.0.1",
     "eslint-plugin-ember-best-practices": "^1.1.1",
     "eslint-plugin-fat-arrow-same-line": "^0.1.0",
-    "eslint-plugin-import": "^2.3.0"
+    "eslint-plugin-import": "^2.3.0",
+    "eslint-plugin-prefer-let": "^1.0.1"
   },
   "author": "",
   "license": "MIT",

@@ -12,8 +12,7 @@ module.exports = {
     'import'
   ],
   extends: [
-    'eslint:recommended',
-    'plugin:ember-best-practices/base'
+    'eslint:recommended'
   ],
   env: {
     'browser': true,
@@ -21,14 +20,47 @@ module.exports = {
   },
   rules: {
     // ES6
+    'array-bracket-spacing': ['error', 'never'],
     'arrow-parens': ['error', 'always'],
+
+    'brace-style': ['error', '1tbs', { 'allowSingleLine': true }],
+
     'camelcase': ['error', { 'properties': 'never' }],
-    'generator-star-spacing': ['error', {
+    'comma-dangle': ['error', 'never'],
+    'comma-spacing': ['error', {
       'before': false,
       'after': true
     }],
+    'comma-style': ['error', 'last'],
+    'curly': ['error', 'all'],
+
+    'dot-notation': 'error',
+    'dot-location': ['error', 'property'],
+
+    'eqeqeq': ['error', 'always'],
+    'eol-last': ['error', 'always'],
+
+    'func-call-spacing': ['error', 'never'],
+
+    'indent': ['error', 2, { 'SwitchCase': 1 }],
+
+    'key-spacing': ['error', {
+      'beforeColon': false,
+      'afterColon': true
+    }],
+    'keyword-spacing': ['error', {
+      'overrides': {
+        'catch': {
+          'after': false
+        }
+      }
+    }],
+
+    'max-statements-per-line': ['error', { 'max': 1 }],
+
+    'no-trailing-spaces': 'error',
+    'no-empty': ['error'],
     'no-var': 'error',
-    'no-useless-rename': 'error',
     'no-unused-vars': [
       'error',
       {
@@ -37,12 +69,46 @@ module.exports = {
         'ignoreRestSiblings': false
       }
     ],
+    'no-useless-rename': 'error',
+    'no-useless-concat': 'error',
+
     'object-shorthand': ['error', 'always'],
+    'object-curly-spacing': ['error', 'always'],
+    'one-var': ['error', {
+      'uninitialized': 'always',
+      'initialized': 'never'
+    }],
+    'operator-linebreak': ['error', 'before'],
+
     'prefer-const': 'error',
     'prefer-spread': 'error',
     'prefer-template': 'error',
-    'eol-last': ['error', 'always'],
-    'quotes': ['error', 'single', { "allowTemplateLiterals": true, "avoidEscape": true }],
+
+    'generator-star-spacing': ['error', {
+      'before': false,
+      'after': true
+    }],
+
+    'quotes': ['error', 'single', { 'avoidEscape': true }],
+
+    'semi': ['error', 'always'],
+    'semi-spacing': ['error', {
+      'before': false,
+      'after': true
+    }],
+    'space-before-blocks': ['error', 'always'],
+    'space-before-function-paren': ['error', {
+      'anonymous': 'never',
+      'named': 'never',
+      'asyncArrow': 'always'
+    }],
+    'space-in-parens': ['error', 'never'],
+    'space-infix-ops': 'error',
+    'space-unary-ops': ['error', {
+      'words': true,
+      'nonwords': false
+    }],
+    'spaced-comment': ['error', 'always'],
 
     // Overrides for Ember
     'new-cap': ['error', {
